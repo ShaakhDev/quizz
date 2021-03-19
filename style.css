@@ -115,16 +115,16 @@ body{
    cursor: pointer;
 }
 @media screen and (max-width: 768px){
-    .container-flex{
-        max-width: 300px;
+    .container.container-flex{
+        max-width: 300px !important;
         margin-top: 1rem !important;
     }
     #start{
-        padding: 1rem;
+        padding: 1rem !important;
     }
     .container{
-        max-width: 300px;
-        margin-top: 3rem;
+        max-width: 300px !important;
+        margin-top: 3rem !important;
         margin-bottom: 7rem !important;
     }
     
@@ -133,23 +133,23 @@ body{
         padding: 1rem 2rem !important;
     }
     .container .quiz-box .answers{
-        font-size: .9rem;
+        font-size: .9rem !important;
     }
     .container .quiz-box .answers #btn{
-        padding: 0.5rem 1rem ;
-        font-size: 1rem;
+        padding: 0.5rem 1rem !important ;
+        font-size: 1rem !important;
     }
 }
-@media screen and (max-width: 1000px){
-    .container-flex{
-        max-width: 550px;
+@media (min-width: 769px) and (max-width: 1000px){
+    .container.container-flex{
+        max-width: 550px !important;
         margin-top: 1rem !important;
     }
     .container{
-        max-width: 650px;
+        max-width: 650px !important;
     }
     .container .quiz-box .answers #btn{
-        padding: 0.8rem 16.rem ;
-        font-size: 1.5rem;
+        padding: 0.8rem 1.6rem !important;
+        font-size: 1.5rem !important;
     }
 }
