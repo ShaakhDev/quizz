@@ -114,3 +114,42 @@ body{
    border-radius: 10px;
    cursor: pointer;
 }
+@media screen and (max-width: 768px){
+    .container-flex{
+        max-width: 300px;
+        margin-top: 1rem !important;
+    }
+    #start{
+        padding: 1rem;
+    }
+    .container{
+        max-width: 300px;
+        margin-top: 3rem;
+        margin-bottom: 7rem !important;
+    }
+    
+    .quiz-box #question{
+        font-size: 1.2rem !important;
+        padding: 1rem 2rem !important;
+    }
+    .container .quiz-box .answers{
+        font-size: .9rem;
+    }
+    .container .quiz-box .answers #btn{
+        padding: 0.5rem 1rem ;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container-flex{
+        max-width: 550px;
+        margin-top: 1rem !important;
+    }
+    .container{
+        max-width: 650px;
+    }
+    .container .quiz-box .answers #btn{
+        padding: 0.8rem 16.rem ;
+        font-size: 1.5rem;
+    }
+}
