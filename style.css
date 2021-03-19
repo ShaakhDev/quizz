@@ -67,9 +67,9 @@ body{
     margin-right: 1.5rem ;
     float: right;
     outline: none;
-    border: 3px solid #4545f5;
+    border: 3px solid #6ed6e4;
     background-color: #fff;
-    color: #4545f5;
+    color: #6ed6e4;
     transform: all 0.3s ease-in;
 }
 .container .quiz-box .answers #btn:hover:disabled{
@@ -84,7 +84,7 @@ body{
 }
 .container .quiz-box .answers #btn:hover{
     cursor: pointer;
-    background-color: #4545f5;
+    background-color: #6ed6e4;
     color:#fff ;
 }
 .correct-answer{
