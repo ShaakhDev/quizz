@@ -130,6 +130,7 @@ const score = document.querySelector('#point');
 const scoreTag = document.querySelector('#score');
 const startButton = document.querySelector('#start');
 const quizBox = document.querySelector('.quiz-box');
+const quiz = document.querySelector('#quiz');
 const container = document.querySelector('.container');
 let currentQuiz = 0;
 let point = 0;
@@ -164,7 +165,7 @@ btnNext.addEventListener('click', () => {
     if (currentQuiz < quizdata.length) {
         loadQuizData();
     } else {
-        alert(`You finished! Your score: ${point} `)
+       quiz.innerHTML = `<h3>Siz 10 ta savoldan ${score.textContent} tasiga to'g'ri javob berdingiz!</h3>`
     }
     loadQuizData();
 })

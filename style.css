@@ -114,6 +114,12 @@ body{
    border-radius: 10px;
    cursor: pointer;
 }
+#quiz h3{
+    text-align: center; 
+}
+#quiz{ 
+    align-items: center !important  ;
+}
 @media screen and (max-width: 768px){
     .container.container-flex{
         max-width: 300px !important;
